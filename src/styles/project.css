@@ -1,0 +1,42 @@
+body{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.projects{
+  background-image: url('../../assets/images/ducks.jpg');
+  font-size: 15px;
+
+  display: flex;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0 5%;
+  align-content: flex-start;
+}
+
+.project_panel{
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  background: white;
+  margin: 15px;
+  padding: 5px;
+  
+
+  flex-basis: calc(33.333% - 40px);
+  display: flex;
+  flex-direction: column;
+}
+
+.project_panel{
+  width: 100%;
+}
+
+.tag{
+  border-radius: 42px;
+  height: 42px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+  padding: 12px 18px 12px 10px;
+  align-self: center;
+}
