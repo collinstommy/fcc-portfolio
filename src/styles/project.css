@@ -3,18 +3,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-.projects{
-  background-image: url('../../assets/images/ducks.jpg');
-  font-size: 15px;
 
-  display: flex;
-   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  margin: 0 5%;
-  align-content: flex-start;
-}
 
 .project_panel{
   border-radius: 2px;

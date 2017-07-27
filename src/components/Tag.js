@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/project.css';
 
-const Projects = (props) =>{
+const Tag = (props) =>{
 
   
 
@@ -12,4 +12,4 @@ const Projects = (props) =>{
   );
 }
 
-export default Projects;
+export default Tag;

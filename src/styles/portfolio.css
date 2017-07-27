@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body{
+    font-family: 'Nunito', 'Titillium Web', sans-serif;
+}
+
+a{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 25% auto auto;
+   grid-template-areas: 
+    "title . . ."
+    "description description description description"
+    "section-title section-title section-title section-title"
+    "projects projects projects projects";
+  margin: auto 10% ;
+}
+ 
+ /* header styles */
+.title{
+  display: inline-block;
+  height: 28vh;
+  margin: 7vh 0 0 0;
+  grid-column: 1 / 5;
+  grid-area: title;
+}
+
+ .title h3{
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    display: inline-block;
+    margin: 30px auto 50px 20px;
+    padding: 10px;
+ }
+
+.description{
+    display: inline-block;
+    font-size: 35px;
+    grid-area: description;
+    grid-column: 1 / 5;
+    height: 65vh;
+    letter-spacing: 3px;
+    line-height: 55px;
+    margin: 5px auto 80px 20px;
+    padding-top: 100px;
+}
+
+/* work styles */
+.section-title{
+    grid-area: section-title;
+    grid-column: 1 / 5;
+    text-align: center;
+}
+
+.section-title h3{
+    color: #464646;
+    text-transform: uppercase;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  grid-area: projects;
+  grid-column: 1 / 5;
+}
+
+.project-box{
+  background-color: #C6C6C6;
+  border-radius: 10px;
+  color: #000000;
+  display: block;
+  flex-basis: calc(25% - 40px);
+  overflow: auto;
+  padding: 5px;
+  margin: 10px 10px;
+  width: auto;
+}
+
+.project-box:hover{
+  background-color: #000000;
+  color: #C6C6C6;
+}
+
+.project-box p{
+  font-size: .76em;
+  margin: 15px 10px;
+  text-align: left;
+}
+
+.project-box h5{
+  font-size: 1em;
+  margin: 10px 10px;
+}
+
+@media (max-width: 800px) {
+  .project-box{
+     flex-basis: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 500px) {
+  .project-box{
+     flex-basis: calc(100% - 40px);
+  }
+}
