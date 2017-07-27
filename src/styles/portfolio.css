@@ -11,6 +11,11 @@ a{
   text-decoration: inherit; /* no underline */
 }
 
+h3, h4, h5, h6{
+    color: #464646;
+    text-transform: uppercase;
+}  
+
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -19,7 +24,9 @@ a{
     "title . . ."
     "description description description description"
     "section-title section-title section-title section-title"
-    "projects projects projects projects";
+    "projects projects projects projects"
+    "lists lists lists lists"
+    ;
   margin: auto 10% ;
 }
  
@@ -53,6 +60,30 @@ a{
     padding-top: 100px;
 }
 
+.listView{
+  font-size: .76em;
+  grid-area: lists;
+  line-height: 28px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.listItem::before {
+    content: " ";
+  display: block;
+  position: absolute;
+  height: 5px;
+  background: black;
+  width: 40px;
+  left: 100%;
+  top: calc(50% - 2px);
+}
+
+.listItem{
+  flex-basis: 50%;
+  margin: 0 10%;
+}
+
 /* work styles */
 .section-title{
     grid-area: section-title;
@@ -60,10 +91,6 @@ a{
     text-align: center;
 }
 
-.section-title h3{
-    color: #464646;
-    text-transform: uppercase;
-}
 
 .projects{
   display: flex;

@@ -1,13 +1,21 @@
 import React from 'react';
 import '../styles/portfolio.css';
 
-const SkillsNetwork = () => {
+const Skills = () => {
 
 return (
-  <div className='skills'>
-    
+  <div className='listView'>
+    <div className='listItem'>'>
+        <h5>Skills</h5>
+        C#<br />
+        Javascript<br />
+        React<br />
+        SQL<br />
+        Node<br />
+        Express<br />
+    </div>
   </div>
 );
 }
 
-export default SkillsNetwork;
+export default Skills;

@@ -5,20 +5,19 @@ import '../styles/portfolio.css';
 
 const Projects = () => {
 
-  const renderProjects = (project) => {
-    return (
-      <div className="project-box">
-        <a href={project.hosted}>
-          <h5>{project.name}</h5>
-          <p>{project.description}</p>
-        </a>
-      </div>
-    );
-  }
 
 return (
   <div className='projects'>
-    {project_details.map(renderProjects)}
+      {project_details.map(function(project, index){
+        return (
+        <div className="project-box" key={index}>
+          <a href={project.hosted}>
+            <h5>{project.name}</h5> 
+            <p>{project.description}</p>
+          </a>
+        </div>
+      );
+    })}
   </div>
 );
 }

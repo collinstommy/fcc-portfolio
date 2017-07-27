@@ -3,6 +3,7 @@ import Description from './components/Description';
 import Title from './components/Title';
 import SectionTitle from './components/SectionTitle';
 import Projects from './components/Projects';
+import Network from './components/Network';
 import './styles/portfolio.css';
 
 class Portfolio extends Component {
@@ -13,6 +14,7 @@ class Portfolio extends Component {
           <Description />
           <SectionTitle />
           <Projects />
+          <Network />
         </div>
     );
   }
