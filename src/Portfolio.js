@@ -12,8 +12,9 @@ class Portfolio extends Component {
         <div className="container">
           <Title />
           <Description />
-          <SectionTitle />
+          <SectionTitle title='Projects' styleID='project' />
           <Projects />
+          <SectionTitle title='Network & Skills' styleID='info' />
           <Network />
         </div>
     );

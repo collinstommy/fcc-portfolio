@@ -23,8 +23,9 @@ h3, h4, h5, h6{
   grid-template-areas: 
     "title . . ."
     "description description description description"
-    "section-title section-title section-title section-title"
+    "project-title project-title project-title project-title"
     "projects projects projects projects"
+    "info-title info-title info-title info-title"
     "lists lists lists lists"
     ;
   margin: auto 10% ;
@@ -67,15 +68,27 @@ h3, h4, h5, h6{
   display: flex;
   margin-bottom: 50px;
 }
-
 .listItem{
+  background-color: #A9B7C5;
+  border-radius: 5px;
   flex-basis: 50%;
-  margin: 0 10%;
+  margin: 2% 10%;
+  padding: 15px;
+}
+
+.listItem h5{
+  color: white;
+}
+
+.info-title{
+    grid-area: info-title;
+    grid-column: 1 / 5;
+    text-align: center;
 }
 
 /* work styles */
-.section-title{
-    grid-area: section-title;
+.project-title{
+    grid-area: project-title;
     grid-column: 1 / 5;
     text-align: center;
 }
@@ -86,10 +99,11 @@ h3, h4, h5, h6{
   height: auto;
   grid-area: projects;
   grid-column: 1 / 5;
+  margin-bottom: 30px;
 }
 
 .project-box{
-  background-color: #C6C6C6;
+  background-color: #D7DDE3;
   border-radius: 10px;
   color: #000000;
   display: block;

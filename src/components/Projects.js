@@ -7,6 +7,7 @@ const Projects = () => {
 
 
 return (
+  
   <div className='projects'>
       {project_details.map(function(project, index){
         return (
