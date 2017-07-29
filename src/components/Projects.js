@@ -5,7 +5,6 @@ import '../styles/portfolio.css';
 
 const Projects = () => {
 
-
 return (
   
   <div className='projects'>

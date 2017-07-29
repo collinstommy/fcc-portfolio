@@ -16,6 +16,12 @@ h3, h4, h5, h6{
     text-transform: uppercase;
 }  
 
+h3{
+  border-bottom: 1px solid #464646;
+  padding-bottom: 5px;  
+
+}
+
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -25,8 +31,11 @@ h3, h4, h5, h6{
     "description description description description"
     "project-title project-title project-title project-title"
     "projects projects projects projects"
+     "experience-title experience-title experience-title experience-title"
+    "experience experience experience experience"
     "info-title info-title info-title info-title"
     "lists lists lists lists"
+   
     ;
   margin: auto 10% ;
 }
@@ -59,6 +68,21 @@ h3, h4, h5, h6{
     line-height: 55px;
     margin: 5px auto 0px 20px;
     padding-top: 100px;
+}
+
+.experience-title{
+    grid-area: experience-title;
+    grid-column: 1 / 5;
+    text-align: center;
+}
+
+.experience{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: experience;
+    grid-column: 1 / 5;
+    margin-bottom: 40px;
 }
 
 .listView{
@@ -133,6 +157,10 @@ h3, h4, h5, h6{
 @media (max-width: 800px) {
   .project-box{
      flex-basis: calc(50% - 40px);
+  }
+
+  .listItem{
+     flex-basis: 100%;
   }
 }
 
