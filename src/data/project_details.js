@@ -1,4 +1,11 @@
 const project_details = [
+   {
+    name: 'Recipe Box',
+    hosted: 'http://unarmed-porter.surge.sh/',
+    code: 'https://github.com/collinstommy/fcc-recipe-box',
+    technologies: ['react', 'redux', 'react-router', 'SCSS', 'material design'],
+    description: 'React web app allowing user to store recipes. Allows for editing, deleting and creation of recipes as well as uploading of photos. Utilises redux and react router.'
+  },
   {
     name: 'Random Quote Machine',
     hosted: 'https://codepen.io/collinstommy/full/RRayaP',
@@ -32,7 +39,7 @@ const project_details = [
     hosted: 'https://collinstommy.github.io/fcc-calculator/index.html',
     code: 'https://github.com/collinstommy/collinstommy.github.io/tree/master/fcc-calculator',
     technologies: ['mocho', 'jQuery'],
-    description: "Javascript Calculator built for the browser. UnitTester using MochaJS."
+    description: "Javascript Calculator built for the browser. UnitTested using MochaJS."
   },
   {
     name: 'Pomodoro Clock',
@@ -60,15 +67,9 @@ const project_details = [
     hosted: 'https://collinstommy.github.io/fcc-leaderboard/',
     code: 'https://github.com/collinstommy/fcc-leaderboard/tree/master',
     technologies: ['react', 'semantic-ui'],
-    description: 'React we app to display FreeCodeCamp leaderboard.'
+    description: 'React web app to display FreeCodeCamp leaderboard.'
   },
-   {
-    name: 'Recipe Box',
-    hosted: 'http://unarmed-porter.surge.sh/',
-    code: 'https://github.com/collinstommy/fcc-recipe-box',
-    technologies: ['react', 'redux', 'react-router', 'SCSS', 'material design'],
-    description: 'React web app allowing user to keep track of recipes. Allows for edits, deleting and creation of recipes as well as uploading of photos. Utilises redux and react router.'
-  }
+  
 
 ];
 

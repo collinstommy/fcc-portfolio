@@ -11,6 +11,10 @@ a{
   text-decoration: inherit; /* no underline */
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
 h3, h4, h5, h6{
     color: #464646;
     text-transform: uppercase;
@@ -20,6 +24,10 @@ h3{
   border-bottom: 1px solid #464646;
   padding-bottom: 5px;  
 
+}
+
+p{
+  font-size: .76em;
 }
 
 .container{
@@ -85,6 +93,14 @@ h3{
     margin-bottom: 40px;
 }
 
+.experience h5{
+  color: #A9B7C5;
+}
+
+.experience p{
+  width: 80%;
+}
+
 .listView{
   font-size: .76em;
   grid-area: lists;
@@ -138,7 +154,11 @@ h3{
   width: auto;
 }
 
-.project-box:hover{
+.project-box a:hover{
+  text-decoration: inherit;
+}
+
+.project-box:hover + h5{
   background-color: #000000;
   color: #C6C6C6;
 }
