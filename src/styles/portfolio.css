@@ -158,7 +158,7 @@ p{
   text-decoration: inherit;
 }
 
-.project-box:hover + h5{
+.project-box:hover{
   background-color: #000000;
   color: #C6C6C6;
 }
