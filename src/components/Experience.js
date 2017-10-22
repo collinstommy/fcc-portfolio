@@ -21,13 +21,19 @@ return (
      </p>
       <i className="fa fa-arrow-down fa-2x" aria-hidden="true"></i>
     <h5> Javascript - Freecodecamp </h5>
-     <p>I am currently undertaking the Freecodecamp.com curriculum to futher develop my web development skills. The course 
-       focuses on technologies including HTML, CSS, SCSS, React, Node, Express and D3. I have completed
-       90% of the first certificate (Front End Web Development) and also parts of the Data Visualisation
-       and Back End certificates. Examples of the projects completed can be seen above.
-
+     <p>Completed the Front End Certificate for the Freecodecamp.com curriculum. The course 
+       focuses on technologies including HTML, CSS, SCSS, React, Node, and Express. 
+       Examples of the projects completed can be seen above.
      </p>
-    
+      <i className="fa fa-arrow-down fa-2x" aria-hidden="true"></i>
+    <h5>Front End Developer - DocumentationHQ </h5>
+     <p>
+       My current cole is working as the frontend developer for a document management application. 
+       The client is written in React using redux, react-router and react-bootstrap. 
+       The backend is written in C# using ServiceStack with mongoDB as the database. 
+       Together with my team I work on all React components including CSS and intergrating with our backend API.
+       I also assist in API design as well as backend development.</p>
+      
   </div>
 );
 }
