@@ -14,6 +14,7 @@ return (
           <a href={project.hosted}>
             <h5>{project.name}</h5> 
             <p>{project.description}</p>
+            <a href={project.code} ><p style={{ textDecoration: "underline"}}>View Code</p></a>
           </a>
         </div>
       );
