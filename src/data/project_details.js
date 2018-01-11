@@ -7,6 +7,13 @@ const project_details = [
     description: 'React web app allowing user to store recipes. Allows for editing, deleting and creation of recipes as well as uploading of photos. Utilises redux and react router.'
   },
   {
+    name: 'Pinterest Clone',
+    hosted: 'https://pinterest-clone-17472.firebaseapp.com/',
+    code: 'https://github.com/collinstommy/fcc-pinterest',
+    technologies: ['react', 'firebase', 'react-router', 'masonary layout', 'bulmaCSS'],
+    description: 'A pinterest clone made using Firebase, React and Bulma.'
+  },
+  {
     name: 'Random Quote Machine',
     hosted: 'https://codepen.io/collinstommy/full/RRayaP',
     code: 'http://codepen.io/collinstommy/pen/RRayaP',
@@ -32,7 +39,7 @@ const project_details = [
     hosted: 'http://codepen.io/collinstommy/full/mAAvXG',
     code: 'http://codepen.io/collinstommy/pen/mAAvXG',
     technologies: ['handlebarsJS', 'Bulma CSS'],
-    description: "A project to display information on a given subset of Twitch TV channels. Displays information on the channel including whether it is online. Built using HanldleBarsJS."
+    description: "A project to display information on a given subset of Twitch TV channels. Displays information on the channel including whether it is online. Built using HandleBarsJS."
   },
   {
     name: 'Javascript Calculator',
@@ -46,7 +53,7 @@ const project_details = [
     hosted: 'https://collinstommy.github.io/fcc-pomodoro-clock/index.html',
     code: 'https://github.com/collinstommy/collinstommy.github.io/tree/master/fcc-pomodoro-clock',
     technologies: ['jQuery', 'materializeCSS'],
-    description: 'Implmementation of the Pomodoro clock used to help the user be efficient with their time. Designed using materializeCSS. Makes use of colour theory.'
+    description: 'Implementation  of the Pomodoro clock used to help the user be efficient with their time. Designed using materializeCSS. Makes use of colour theory.'
   },
   {
     name: 'Timestamp Microservice',

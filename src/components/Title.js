@@ -4,7 +4,7 @@ import '../styles/portfolio.css';
 const Title = () => {
 
   return (
-      <div className="title">
+      <div className="title fadeInRight animated ">
         <h3>TC</h3>
       </div>
   );
